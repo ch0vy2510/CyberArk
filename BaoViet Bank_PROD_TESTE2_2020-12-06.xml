@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><LicenseXML version="9.70.0.0">
+
+  <General>
+    <Customer ID="BaoViet Bank_PROD_TESTE2"/>
+    <VaultProperties DB="MySQL"/>
+    <LicenseKey key="0AF08D7A8585827A7C2DCE49F8435283CFC890E018C543D722072DECDD0A92DAF2FE271BDEAE8E86983B50DE978AAFFD3DA17FA5BE927AF22D6879BB7CC3115730347508BC91D62F56BF0037469C70A3EC5E61E50DEEE74826721AB0891CB0060E0A161DBF01D89BF433E7E35190A2B2D2EA6366F1521EF4FC6F2FAE486C28E374270445065C1E95FF62A30AD840DF0A28ED8811BD97EFAB5366DB30C2D2AE910BC0C8863DD15142BB0552B68FB630A11AD0E388356AAC3986151C396F76D5003BE37E043205912D0F59B8D71B968B2B76AEB6C786E98851D87C9A8BE2DAD95CD775D441E2C28630C7FB4A41B621846C37884EA35D05A2148FA99B4119B3BB1C"/>
+  </General>
+
+  <Limitations>
+    <LicenseLimitations ExpirationDate="Never" PSMConcurrentSessions="125" PSMForServersCount="400" Passwords="2000" SSHKeysTargetSystems="400"/>
+    <DR>Yes</DR>
+    <HACluster>Yes</HACluster>
+  </Limitations>
+
+  <UserTypes>
+    <UserType Description="Enterprise Password Vault End User" ID="34" LicensedUsers="21" Name="EPVUser" Options="1">
+      <AllowedApplication App="PVWA"/>
+      <AllowedApplication App="WINCLIENT"/>
+      <AllowedApplication App="GUI"/>
+      <AllowedApplication App="PACLI"/>
+      <AllowedApplication App="NAPI"/>
+      <AllowedApplication App="XAPI"/>
+      <AllowedApplication App="HTTPGW"/>
+      <AllowedApplication App="EVD"/>
+      <AllowedApplication App="PIMSu"/>
+      <AllowedApplication App="PSMP"/>
+      <AllowedApplication App="IBVSDK"/>
+    </UserType>
+    <UserType Description="Central Policy Manager" ID="31" LicensedUsers="5" Name="CPM" Options="4">
+      <AllowedApplication App="CPM"/>
+    </UserType>
+    <UserType Description="Password Vault Web Access" ID="32" LicensedUsers="5" Multiplicity="2" Name="PVWA" Options="4">
+      <AllowedApplication App="PVWAApp"/>
+    </UserType>
+    <UserType Description="Privileged Session Manager" ID="36" LicensedUsers="5" Multiplicity="2" Name="PSM" Options="4">
+      <AllowedApplication App="PSMApp"/>
+    </UserType>
+    <UserType Description="Privileged Session Manager SSH Proxy" ID="70" LicensedUsers="5" Multiplicity="2" Name="PSMPServer" Options="4">
+      <AllowedApplication App="PSMPApp"/>
+    </UserType>
+    <UserType Description="DR User" ID="504" LicensedConcurrentUsers="1" LicensedUsers="1" Name="DRUser">
+      <AllowedApplication App="DR"/>
+    </UserType>
+  </UserTypes>
+
+</LicenseXML>
